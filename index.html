@@ -62,21 +62,34 @@
                 <img class="img1" src="./image/1.jpg">
                 <h1>My first page</h1>
                 <p>This is my first project</p>
+                <div class="like-content">
+                     <img onclick="likeincrement()" class="like" src="./image/Like.png">
+                     <p id="likeNumer"></p>
+                </div>
             </div>
             <div class="box">
                  <img class="img1" src="./image/1.jpg">
                  <h1>My second page</h1>
                  <p>This is my second project</p>
+                 <div class="like-content">
+                    <img onclick="likeincrement1()" class="like" src="./image/Like.png">
+                    <p id="likeNumer1"></p>
+               </div>
             </div>
             <div class="box">
                  <img class="img1" src="./image/1.jpg">
                  <h1>My third page</h1>
                  <p>This is my third project</p>
+                 <div class="like-content">
+                    <img onclick="likeincrement2()" class="like" src="./image/Like.png">
+                    <p id="likeNumer2"></p>
+               </div>
             </div>
         </div>
     </div>
-    <div class="contact-me">
-        <div class="conatct-me1">
+    <div class="contact-me" id="submit">
+        <h2 id="submit12"></h2>
+        <div class="conatct-me1" id="submit1"  onclick="sucessfullySubmit()">
             <h1 class="Contact-title">Contact me</h1>
             <form>
                 <div class="first-row">
@@ -103,10 +116,12 @@
                         <textarea class="inputs" placeholder="Descpritons"></textarea>
                     </div>
                 </div>
-                <button>Submit</button>
+                <p id="submit"></p>
+                <button type="button"  onclick="sucessfullySubmit()">Submit</button>
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
     <div class="footer">
         <div class="footer-content">
         <div class="social-logos">

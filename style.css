@@ -125,6 +125,22 @@ body{
 .box h1  {
     text-align: center;
 }
+.like{
+    width: 30px;
+    object-fit: contain;
+    margin-left: 120px;
+}
+.like:active{
+    width: 30px;
+}
+.like-content{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+.like p {
+    text-align: center;
+}
 
 .contact-me{
     margin-top: 20px;
@@ -208,4 +224,8 @@ button{
 .social-logos{
     display: flex;
     align-items: center;
+}
+
+.submit12{
+    padding: 50px;
 }
